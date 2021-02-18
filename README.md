@@ -1,29 +1,34 @@
 ## 书单
 
-《亿级流量网站架构核心技术》
-《微观经济学》
-《精通比特币》
-《etcd 技术内幕》
-《Kubernetes in Action》
-《小岛经济学》
-《Elixir 程序设计》
-
+* 《亿级流量网站架构核心技术》
+* 《微观经济学》
+* 《精通比特币》
+* 《etcd 技术内幕》
+* 《Kubernetes in Action》
+* 《小岛经济学》
+* 《Elixir 程序设计》
+* 《计算机程序的构造和解释》（SICP）是最著名的使用Scheme语言的计算机科学教科书，由Scheme创始人之一萨斯曼与Harold Abelson编写。
+* 《程序设计方法》对SICP中的一些被认为过于艰涩的概念进行了改进，由Felleison等人编写。
+* 《黑客与画家》
 ### 游戏开发
 
-[《Unity shader入门精要》](/1.Unity+Shader入门精要/Unity+Shader入门精要.pdf)
+* [《Unity shader入门精要》](/1.Unity+Shader入门精要/Unity+Shader入门精要.pdf)
 
-[《Unity shader入门精要》读书笔记](/1.Unity+Shader入门精要/读书笔记.md)
+* [《Unity shader入门精要》读书笔记](/1.Unity+Shader入门精要/读书笔记.md)
 
+* 《GPU 编程与CG 语言之阳春白雪下里巴人》可以帮助你了解硬件，此书作者水平很高
+
+* 《Real-Time Rendering.3rd》经典之作，不过不适合入门。提高使用。
 ### C#语法
 
-[CLR via C#]()
+* [CLR via C#]()
 
 ### 设计模式
 
 [设计模式与游戏完美开发 读书笔记](/3.设计模式与完美开发/读书笔记.md)
 
 
-### 阅读汇总
+### 读书笔记汇总汇总
 
 #### nodejs
 
