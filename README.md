@@ -12,6 +12,10 @@
 * 《程序设计方法》对SICP中的一些被认为过于艰涩的概念进行了改进，由Felleison等人编写。
 * 《黑客与画家》
 
+## 经济学入门
+
+* 《the secret of economic indicator》：经济指标解读，入门经济学书籍
+
 ## 服务端开发书单
 
 * [《Go 语言设计与实现》](https://draveness.me/golang/)
