@@ -20,3 +20,25 @@
 
 ## 大内存分配
 大于32kb，不再缓存分配，而是在Page分配至heap。
+arena区域，每个Page8kb大小。
+
+## 总结
+
+内存大小分为三个层级mcache,mcentral,mheap.
+mcache每个线程独立拥有一个携程，不会死锁。
+mcentral呗所有的工作线程共同享有，竞争消耗资源。
+
+
+Go的内存分配器在分配对象时，根据对象的大小，分成三类：小对象（小于等于16B）、一般对象（大于16B，小于等于32KB）、大对象（大于32KB）。
+
+大体上的分配流程：
+
+32KB 的对象，直接从mheap上分配；
+
+<=16B 的对象使用mcache的tiny分配器分配；
+(16B,32KB] 的对象，首先计算对象的规格大小，然后使用mcache中相应规格大小的mspan分配；
+如果mcache没有相应规格大小的mspan，则向mcentral申请
+如果mcentral没有相应规格大小的mspan，则向mheap申请
+如果mheap中也没有合适大小的mspan，则向操作系统申请
+
+
