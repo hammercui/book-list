@@ -39,6 +39,9 @@ Go的内存分配器在分配对象时，根据对象的大小，分成三类：
 (16B,32KB] 的对象，首先计算对象的规格大小，然后使用mcache中相应规格大小的mspan分配；
 如果mcache没有相应规格大小的mspan，则向mcentral申请
 如果mcentral没有相应规格大小的mspan，则向mheap申请
-如果mheap中也没有合适大小的mspan，则向操作系统申请
+如果mheap中也没有合适大小的mspan，则向操作系统申请。
 
 
+[关于Golang GC的一些误解](https://studygolang.com/articles/31431)
+
+[Go不需要Java风格的GC](https://juejin.cn/post/7036238522679820296)
